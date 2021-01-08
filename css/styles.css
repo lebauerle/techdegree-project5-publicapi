@@ -3,6 +3,7 @@
 ======================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -16,7 +17,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: rgb(49, 49, 49);
 }
 
 header {
@@ -29,8 +30,9 @@ header {
 }
 
 header h1 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    color: rgb(255, 255, 255);
     margin-top: 35px;
 }
 
@@ -92,7 +94,13 @@ header h1 {
     border: 1px solid rgba(50, 50, 50, 0.3);
     transition: .4s ease-out;
     overflow: hidden;
+    box-shadow: 4px 4px 5px  rgb(139, 139, 139);
 }
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px  rgb(139, 139, 139);
+}
+
 
 .card-img {
     width: 95px;
